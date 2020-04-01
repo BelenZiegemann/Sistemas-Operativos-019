@@ -1,0 +1,47 @@
+Ayuda de los comandos:
+
+mkdir:
+	Nombre: mkdir
+	Sinopsis: mkdir [nombre del directorio].
+	Descripcion: Crea directorios con los nombres especificados. 
+	Los permisos de los directorios creados son 0777.
+	
+	
+rmdir:
+	Nombre: rmdir.
+	Sinopsis: rmdir [nombre del directorio].
+	Descripcion: Borra directorios vacios. 
+	Si el argumento directorio no se refiere a un directorio existente y vacio devuelve error.
+		
+		
+	
+touch:
+	Nombre: touch
+	Sinopsis: touch [nombre del archivo]
+	Descripcion: Crea un archivo con el nombre especificado. 
+	Si el archivo existe, modifica la fecha de creacion.
+	
+
+
+cat:
+	Nombre: cat
+	Sinopsis:cat [archivo]
+	Descripcion: Muestra por pantalla el archivo pasado como argumento.
+	
+	
+ls:
+	Nombre: ls
+	Sinopsis: ls
+	Descripcion: Lista los directorios que se encuentran dentro de una carpeta.
+	
+	
+man:
+	Nombre: man
+	Sinopsis: man
+	Descripcion: Muestra una descripcion de los comandos que pueden utilizarse.
+
+
+chmod:
+    nombre:chmod
+    sinopsis: chmod [nombre del archivo] [permisos]
+    Descripcion: modifica los permisos al archivo especificado.
